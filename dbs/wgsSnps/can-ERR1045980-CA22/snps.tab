@@ -1,0 +1,103 @@
+CHROM	POS	TYPE	REF	ALT	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	LOCUS_TAG	GENE	PRODUCT
+CP000487	142	snp	A	G	G:497 A:2	CDS	+	142/1311	48/436	missense_variant c.142A>G p.Thr48Ala	CFF8240_0001	dnaA	chromosomal replication initiator protein DnaA
+CP000487	15893	snp	T	C	C:515 T:0	CDS	+	72/684	24/227	synonymous_variant c.72T>C p.Ala24Ala	CFF8240_0014		hypothetical protein
+CP000487	35924	snp	G	A	A:520 G:2	CDS	+	571/831	191/276	missense_variant c.571G>A p.Ala191Thr	CFF8240_0037	rplB	ribosomal protein L2
+CP000487	39377	snp	T	C	C:538 T:2	CDS	+	396/543	132/180	synonymous_variant c.396T>C p.Asn132Asn	CFF8240_0046		50S ribosomal protein L5
+CP000487	96680	snp	G	A	A:517 G:0	CDS	-	1414/1449	472/482	stop_gained c.1414C>T p.Arg472*	CFF8240_0117		RND efflux system, outer membrane lipoprotein CmeC
+CP000487	102775	snp	A	G	G:492 A:0	CDS	-	338/630	113/209	missense_variant c.338T>C p.Leu113Pro	CFF8240_0120		transcription Regulator Protein
+CP000487	115027	snp	A	G	G:337 A:0								
+CP000487	128960	snp	T	C	C:457 T:0	CDS	+	530/807	177/268	missense_variant c.530T>C p.Val177Ala	CFF8240_0148		peptidase M48, Ste24p
+CP000487	168423	snp	C	T	T:407 C:0	CDS	+	188/1635	63/544	missense_variant c.188C>T p.Thr63Ile	CFF8240_0185		methyl-accepting chemotaxis protein
+CP000487	233422	snp	A	C	C:499 A:0	CDS	+	553/984	185/327	missense_variant c.553A>C p.Ile185Leu	CFF8240_0259		secretion protein HlyD
+CP000487	255413	snp	G	A	A:508 G:0	CDS	+	809/981	270/326	missense_variant c.809G>A p.Gly270Glu	CFF8240_0279		ABC transporter, permease protein, FecCD family
+CP000487	285680	snp	T	C	C:495 T:0	CDS	+	322/1038	108/345	missense_variant c.322T>C p.Cys108Arg	CFF8240_0317	mreB	rod shape-determining protein MreB
+CP000487	310094	snp	T	C	C:504 T:1	CDS	+	23/1074	8/357	missense_variant c.23T>C p.Ile8Thr	CFF8240_0342	flhB	flagellar biosynthetic protein FlhB
+CP000487	321149	snp	G	A	A:526 G:0	CDS	+	175/1596	59/531	missense_variant c.175G>A p.Asp59Asn	CFF8240_0351		anthranilate synthase component II
+CP000487	322993	snp	A	G	G:472 A:1	CDS	+	427/606	143/201	missense_variant c.427A>G p.Ser143Gly	CFF8240_0352	trpF	N-(5'phosphoribosyl)anthranilate isomerase
+CP000487	332406	snp	T	C	C:528 T:0	CDS	+	427/600	143/199	missense_variant c.427T>C p.Cys143Arg	CFF8240_0365	ttg2D	toluene tolerance protein Ttg2D
+CP000487	334881	snp	C	T	T:512 C:0	CDS	+	2303/2466	768/821	missense_variant c.2303C>T p.Ala768Val	CFF8240_0367		putative integral membrane protein
+CP000487	338668	snp	A	C	C:482 A:1	CDS	+	2817/4128	939/1375	missense_variant c.2817A>C p.Arg939Ser	CFF8240_0368		diguanylate cyclase/phosphodiesterase with PAS/PAC and GAF sensor
+CP000487	409446	ins	A	AGCC	AGCC:373 A:0	CDS	+	42/687	14/228	disruptive_inframe_insertion c.39_41dupCGC p.Ala14dup	CFF8240_0433		disulfide isomerase
+CP000487	419833	snp	A	G	G:470 A:1	CDS	+	124/2595	42/864	missense_variant c.124A>G p.Ile42Val	CFF8240_0440		nitrous-oxide reductase
+CP000487	433676	del	TA	T	T:384 TA:0								
+CP000487	446936	ins	C	CA	CA:31 C:0								
+CP000487	458536	del	AC	A	A:183 AC:20								
+CP000487	474632	snp	T	C	C:346 T:1	CDS	-	863/2766	288/921	missense_variant c.863A>G p.Asp288Gly	CFF8240_0481		surface array protein
+CP000487	482078	ins	C	CA	CA:172 C:0								
+CP000487	487476	del	AGCT	A	A:273 AGCT:0								
+CP000487	489376	del	TAGC	T	T:262 TAGC:0	CDS	-	3198/3879	1066/1292	conservative_inframe_deletion c.3196_3198delGCT p.Ala1066del	CFF8240_0490		surface array protein
+CP000487	533543	snp	T	C	C:458 T:0	CDS	+	915/1365	305/454	synonymous_variant c.915T>C p.Thr305Thr	CFF8240_0526		integral membrane protein
+CP000487	553985	snp	T	G	G:498 T:0	CDS	-	480/1248	160/415	synonymous_variant c.480A>C p.Ile160Ile	CFF8240_0546		conserved hypothetical protein
+CP000487	603190	snp	A	G	G:223 A:0								
+CP000487	603231	ins	A	AC	AC:76 A:7								
+CP000487	660118	ins	C	CT	CT:362 C:1	CDS	-	276/1572	92/523	frameshift_variant c.276dupA p.Val93fs	CFF8240_0649		hypothetical protein
+CP000487	675397	complex	CCA	ACT	ACT:14 CCA:0	CDS	+	39/129	13/42	missense_variant c.39_41delCCAinsACT p.His14Leu	CFF8240_0668		hypothetical protein
+CP000487	678671	snp	A	G	G:184 A:0								
+CP000487	687870	snp	C	A	A:405 C:1	CDS	+	973/2844	325/947	missense_variant c.973C>A p.Leu325Ile	CFF8240_0683		flagellar hook-associated protein
+CP000487	725522	snp	T	C	C:441 T:1	CDS	-	371/1710	124/569	missense_variant c.371A>G p.Asn124Ser	CFF8240_0719		oligoendopeptidase F, putative
+CP000487	737395	snp	T	C	C:482 T:0	CDS	+	845/2436	282/811	missense_variant c.845T>C p.Ile282Thr	CFF8240_0731	leuS	leucyl-tRNA synthetase
+CP000487	798237	snp	T	C	C:397 T:0	CDS	-	424/1719	142/572	missense_variant c.424A>G p.Thr142Ala	CFF8240_0787		lipid export ABC transport protein
+CP000487	851820	snp	C	T	T:400 C:0	CDS	+	795/1185	265/394	synonymous_variant c.795C>T p.Tyr265Tyr	CFF8240_0844		cell division protein, FtsW/RodA/SpoVE family
+CP000487	861000	snp	G	T	T:416 G:0	CDS	+	191/1242	64/413	missense_variant c.191G>T p.Ser64Ile	CFF8240_0856		conserved hypothetical protein
+CP000487	865672	snp	C	T	T:374 C:0	CDS	-	530/1113	177/370	missense_variant c.530G>A p.Gly177Asp	CFF8240_0860	rseP	RIP metalloprotease RseP
+CP000487	868667	snp	C	T	T:405 C:0	CDS	-	940/1833	314/610	missense_variant c.940G>A p.Glu314Lys	CFF8240_0862	priA	primosomal protein N'
+CP000487	874028	snp	G	A	A:374 G:0	CDS	+	1327/1977	443/658	missense_variant c.1327G>A p.Ala443Thr	CFF8240_0871	uvrB	excinuclease ABC, B subunit
+CP000487	884804	snp	G	A	A:345 G:0	CDS	+	1660/2256	554/751	missense_variant c.1660G>A p.Val554Ile	CFF8240_0877	metE	5-methyltetrahydropteroyltriglutamate-- homocysteine S-methyltransferase
+CP000487	887510	ins	T	TG	TG:275 T:11								
+CP000487	926933	del	GT	G	G:69 GT:0								
+CP000487	933004	snp	T	C	C:411 T:0	CDS	+	1802/1968	601/655	missense_variant c.1802T>C p.Val601Ala	CFF8240_0928		conserved hypothetical protein
+CP000487	957291	snp	G	A	A:347 G:0	CDS	-	641/795	214/264	missense_variant c.641C>T p.Thr214Ile	CFF8240_0956		cytolethal distending toxin
+CP000487	965499	ins	C	CA	CA:377 C:1	CDS	+	529/900	177/299	frameshift_variant c.528dupA p.Gly177fs	CFF8240_0964		conserved hypothetical protein
+CP000487	972761	snp	C	T	T:254 C:1								
+CP000487	973472	snp	T	C	C:382 T:0	CDS	+	595/774	199/257	missense_variant c.595T>C p.Ser199Pro	CFF8240_0970		lipoprotein, nlpa family
+CP000487	984854	snp	A	G	G:502 A:0	CDS	-	764/1401	255/466	missense_variant c.764T>C p.Ile255Thr	CFF8240_0982	dnaB	replicative DNA helicase
+CP000487	990808	del	CT	C	C:182 CT:0	CDS	-	653/924	218/307	frameshift_variant c.653delA p.Lys218fs	CFF8240_0986		hypothetical protein
+CP000487	991959	del	CA	C	C:333 CA:0	CDS	-	26/525	9/174	frameshift_variant c.26delT p.Leu9fs	CFF8240_0987		hypothetical protein
+CP000487	1001449	snp	A	G	G:390 A:0								
+CP000487	1003318	snp	A	G	G:416 A:0	CDS	-	885/2559	295/852	synonymous_variant c.885T>C p.Gly295Gly	CFF8240_0997	acnB	aconitate hydratase 2
+CP000487	1010842	del	GA	G	G:355 GA:0	CDS	+	59/630	20/209	frameshift_variant c.59delA p.Asn20fs	CFF8240_1005		hypothetical protein
+CP000487	1019449	ins	C	CA	CA:371 C:0								
+CP000487	1025099	snp	C	T	T:421 C:1	CDS	-	3/600	1/199	initiator_codon_variant c.3G>A p.Met1?	CFF8240_1022		homogentisate export protein
+CP000487	1025999	snp	G	A	A:368 G:0	CDS	+	166/477	56/158	missense_variant c.166G>A p.Ala56Thr	CFF8240_1024		hypothetical protein
+CP000487	1027496	del	AAAATT	A	A:324 AAAATT:0								
+CP000487	1041019	del	AT	A	A:329 AT:0	CDS	+	977/1404	326/467	frameshift_variant c.977delT p.Leu326fs	CFF8240_1040		transporter, nadc family
+CP000487	1042565	snp	A	C	C:462 A:0	CDS	+	1034/2196	345/731	missense_variant c.1034A>C p.Lys345Thr	CFF8240_1041		methyl-accepting chemotaxis protein
+CP000487	1076709	snp	G	A	A:428 G:0	CDS	+	543/747	181/248	synonymous_variant c.543G>A p.Ala181Ala	CFF8240_1078	nadE	NAD+ synthetase
+CP000487	1090079	snp	G	A	A:441 G:0	CDS	-	113/522	38/173	missense_variant c.113C>T p.Ala38Val	CFF8240_1090	grpE	co-chaperone GrpE
+CP000487	1134658	snp	C	T	T:427 C:0	CDS	-	336/465	112/154	missense_variant c.336G>A p.Met112Ile	CFF8240_1143		ferric uptake regulation protein
+CP000487	1153145	ins	G	GT	GT:247 G:0	CDS	-	205/729	69/242	frameshift_variant c.205dupA p.Thr69fs	CFF8240_1165		glutamine transport ATP-binding protein GlnQ
+CP000487	1231972	snp	C	T	T:456 C:1	CDS	+	139/1824	47/607	missense_variant c.139C>T p.Leu47Phe	CFF8240_1244	nrfA	nitrite reductase (cytochrome; ammonia-forming)
+CP000487	1241579	snp	C	T	T:471 C:0	CDS	-	49/1278	17/425	missense_variant c.49G>A p.Val17Ile	CFF8240_1252	aroA	3-phosphoshikimate 1-carboxyvinyltransferase
+CP000487	1273843	ins	A	AT	AT:395 A:0								
+CP000487	1282861	snp	G	A	A:468 G:1	CDS	+	1631/1842	544/613	missense_variant c.1631G>A p.Gly544Glu	CFF8240_1293		biotin/lipoyl attachment
+CP000487	1332359	snp	T	C	C:519 T:0	CDS	-	114/1932	38/643	synonymous_variant c.114A>G p.Arg38Arg	CFF8240_1347		putative Cell division protein FtsH homolog
+CP000487	1333435	ins	A	AT	AT:395 A:0								
+CP000487	1348124	ins	G	GT	GT:401 G:0								
+CP000487	1362360	snp	T	C	C:557 T:0	CDS	-	1285/2277	429/758	missense_variant c.1285A>G p.Arg429Gly	CFF8240_1383		general glycosylation pathway protein
+CP000487	1364054	snp	C	T	T:531 C:0	CDS	-	696/1122	232/373	synonymous_variant c.696G>A p.Glu232Glu	CFF8240_1384		glycosyl transferase, group 1 family protein
+CP000487	1389554	snp	T	C	C:467 T:1								
+CP000487	1399949	snp	C	T	T:460 C:1	CDS	-	3207/3528	1069/1175	synonymous_variant c.3207G>A p.Arg1069Arg	CFF8240_1417		serine protease, subtilase family
+CP000487	1404501	snp	T	C	C:437 T:2	CDS	-	1803/2370	601/789	missense_variant c.1803A>G p.Ile601Met	CFF8240_1420		copper-translocating P-type ATPase
+CP000487	1417833	snp	A	G	G:454 A:0	CDS	+	66/882	22/293	synonymous_variant c.66A>G p.Ala22Ala	CFF8240_1434		transcriptional regulator, LysR family
+CP000487	1432632	snp	T	C	C:483 T:1	CDS	+	245/507	82/168	missense_variant c.245T>C p.Leu82Pro	CFF8240_1448	petA	ubiquinol-Cytochrome c reductase, iron-sulfur subunit
+CP000487	1450835	snp	T	G	G:538 T:1	CDS	-	318/549	106/182	synonymous_variant c.318A>C p.Ile106Ile	CFF8240_1470		hypothetical protein
+CP000487	1459773	del	TG	T	T:301 TG:14	CDS	+	208/249	70/82	frameshift_variant c.208delG p.Val70fs	CFF8240_1480		transformation system protein
+CP000487	1510556	snp	G	A	A:477 G:0	CDS	-	748/1035	250/344	missense_variant c.748C>T p.Arg250Cys	CFF8240_1536		GTP-binding protein Obg/CgtA
+CP000487	1529254	ins	C	CT	CT:432 C:0	CDS	-	1104/1365	368/454	frameshift_variant c.1104dupA p.Asp369fs	CFF8240_1557		glutamate dehydrogenase
+CP000487	1540617	snp	G	A	A:490 G:2	CDS	-	1050/1263	350/420	synonymous_variant c.1050C>T p.Cys350Cys	CFF8240_1568		iron-sulfur cluster-binding domain protein
+CP000487	1563440	snp	G	T	T:516 G:0	CDS	+	3/354	1/117	start_lost c.3G>T p.Leu1?	CFF8240_1595		hypothetical protein
+CP000487	1569788	del	CG	C	C:391 CG:17	CDS	+	679/753	227/250	frameshift_variant c.679delG p.Val227fs	CFF8240_1603		methyltransferase
+CP000487	1571606	ins	A	AG	AG:344 A:32								
+CP000487	1572782	snp	A	G	G:501 A:0	CDS	+	103/900	35/299	missense_variant c.103A>G p.Lys35Glu	CFF8240_1607		putative ADP-heptose--lipopolysaccharide heptosyltransferase II
+CP000487	1587612	snp	T	C	C:543 T:0	CDS	+	986/1446	329/481	missense_variant c.986T>C p.Ile329Thr	CFF8240_1621		hypothetical protein
+CP000487	1593698	ins	T	TG	TG:332 T:7								
+CP000487	1599880	snp	G	A	A:543 G:0								
+CP000487	1613743	snp	A	G	G:475 A:1	CDS	+	935/1338	312/445	missense_variant c.935A>G p.Asp312Gly	CFF8240_1644		anaerobic C4-dicarboxylate transporter DcuA
+CP000487	1679191	snp	C	A	A:474 C:1	CDS	+	723/1068	241/355	synonymous_variant c.723C>A p.Arg241Arg	CFF8240_1719	prfA	peptide chain release factor 1
+CP000487	1696282	del	AG	A	A:334 AG:20	CDS	+	154/174	52/57	frameshift_variant c.154delG p.Val52fs	CFF8240_1739		hypothetical protein
+CP000487	1699604	snp	A	G	G:511 A:1	CDS	-	98/426	33/141	missense_variant c.98T>C p.Phe33Ser	CFF8240_1743	rnhA	RNase H
+CP000487	1721024	del	TA	T	T:435 TA:1	CDS	+	929/1995	310/664	frameshift_variant c.929delA p.Asn310fs	CFF8240_1760		TonB-dependent heme receptor
+CP000487	1723066	snp	G	A	A:507 G:0	CDS	+	1/777	1/258	initiator_codon_variant c.1G>A p.Val1?	CFF8240_1762		ferrichrome transport ATP-binding protein FhuC
+CP000487	1728957	snp	G	A	A:447 G:0	CDS	-	1382/2736	461/911	missense_variant c.1382C>T p.Ala461Val	CFF8240_1769	flgE	flagellar hook protein FlgE
+CP000487	1728972	snp	A	G	G:440 A:0	CDS	-	1367/2736	456/911	missense_variant c.1367T>C p.Val456Ala	CFF8240_1769	flgE	flagellar hook protein FlgE
+CP000487	1733999	snp	T	C	C:502 T:2	CDS	+	956/984	319/327	missense_variant c.956T>C p.Ile319Thr	CFF8240_1774	purM	phosphoribosylformylglycinamidine cyclo-ligase
