@@ -1,6 +1,13 @@
 # General
 
-What it is. What it does. How to cite
+CfvCatch is a snakemake workflow for fast identification [and catching] of _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains via reporting 
+1. variant markers for the _Cfv_ specific phylogenetic group 
+2. the presence of the ISC_fe1_ (_Cfv_ marker)
+3. MLST types
+4. results of _in silico_ PCR assays 
+
+The pipeline takes into account the phylogentic position of the _C. fetus_ strains and the presence of the ISC_fe1_ to determine the subspecies _Cfv_ 
+What it does. How to cite
 
 
 # Install CfwCatch
