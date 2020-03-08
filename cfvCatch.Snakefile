@@ -29,7 +29,7 @@ SAMPLES = set(SAMPLES)
 GENOMES = set(GENOMES)
 DATASET =  SAMPLES | GENOMES
 #scripts_paths
-bin_dir= snakemake_folder + "bin/",
+bin_dir= snakemake_folder + "bin/"
 dbs_dir= snakemake_folder + "dbs/"
 envs_folder= snakemake_folder + "envs/"
 #mlst_parameters
@@ -74,6 +74,7 @@ rule all:
         phylogeny_tree= results_dir + "core.newick",
         mlstresults= results_dir + "mlst.tab",
         snpdistsresults= results_dir + "distances.tab",
+        summary=results_dir + "Summary.xls"
 
 """
 collect assemblies
@@ -295,3 +296,21 @@ rule snpdists:
         envs_folder + "snpdists.yaml"
     shell:
         "snp-dists -b {input.snippycore} > {output.snpdistsresults}"
+
+"""
+combines results
+outpur CSV, XLS
+"""
+rule combine_Results:
+    input:
+        mlstresults= results_dir + "mlst.tab",
+        pcr = expand(results_dir + "{sample}/pcr.tab", sample=SAMPLES),
+        iscfe1_summary = results_dir + "iscfe1_summary.tab",
+        eleven_snps= expand(results_dir + "{sample}/cfv_snp_markers.tab", sample=SAMPLES),
+    output:
+        allxls= results_dir + "Summary.xls",
+        allcsv= results_dir + "Summary.csv",
+    conda:
+        envs_folder + "rxls.yaml"
+    script:
+        bin_dir +"/summary.R"
