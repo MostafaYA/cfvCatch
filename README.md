@@ -40,6 +40,12 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
 # Overview
 ![pic](workflow.png)
 
+# Authors
+
+* Mostafa Abdel-Glil (@Mostafa.Abdel-Glil)
+* Jörg Linde (@joerg.linde)
+
+
 # Install cfvCatch
 
 To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) installed.
@@ -72,11 +78,11 @@ OPTIONAL:
 
 ```
 
-### Tools references 
-1. snippy (https://github.com/tseemann/snippy) 
-2. mlst (https://github.com/tseemann/mlst)
-3. in silico PCR (https://github.com/egonozer/in_silico_pcr)
-4. ABRicate (https://github.com/tseemann/abricate)
-5. Shovill (https://github.com/tseemann/shovill)
-6. snp-dists (https://github.com/tseemann/snp-dists)
-7. FastTree (http://www.microbesonline.org/fasttree/)
+# References 
+* snippy (https://github.com/tseemann/snippy) 
+* mlst (https://github.com/tseemann/mlst)
+* in silico PCR (https://github.com/egonozer/in_silico_pcr)
+* ABRicate (https://github.com/tseemann/abricate)
+* Shovill (https://github.com/tseemann/shovill)
+* snp-dists (https://github.com/tseemann/snp-dists)
+* FastTree (http://www.microbesonline.org/fasttree/)
