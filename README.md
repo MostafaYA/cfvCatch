@@ -2,7 +2,7 @@
 
 CfvCatch is a snakemake workflow for fast differentiation the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains from its neighbour _Campylobacter fetus_ subsp. _fetus_ (_Cff_) strains.  
 
-The differentiation is done via reporting
+### The differentiation is done via reporting
 1. variant markers specific for the _Cfv_ phylogenetic group (defined below)
 2. the presence of the ISC_fe1_ (_Cfv_ marker)
 3. MLST types 
