@@ -1,6 +1,6 @@
 # cfvCatch: A workflow to identify the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains
 
-cfvCatch is a snakemake workflow for fast differentiation  _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains from its neighbour _Campylobacter fetus_ subsp. _fetus_ (_Cff_) strains.  
+cfvCatch is a snakemake workflow for fast differentiation _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains from its neighbour _Campylobacter fetus_ subsp. _fetus_ (_Cff_) strains.  
 
 
 ##### This differentiation is done via reporting:
@@ -42,7 +42,7 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
 
 # Install cfvCatch
 
-To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) instllaed.
+To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) installed.
 All ohter dependencies are downloaded during run-time.
 
 
