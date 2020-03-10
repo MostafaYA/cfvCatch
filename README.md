@@ -46,11 +46,11 @@ To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects
 All ohter dependencies are downloaded during run-time.
 
 
-Download cfvCatch:
+#### Download cfvCatch:
 
     git clone https://gitlab.com/FLI_Bioinfo/Cfvcatch.git
 
-Run cfvCatch
+#### Run cfvCatch
 
 example: `bash ./cfvCatch -fq <path to fastq reads> -fa <path to fastq reads> --results_dir results --run true`
 
@@ -72,3 +72,11 @@ OPTIONAL:
 
 ```
 
+### Tools references 
+1. snippy (https://github.com/tseemann/snippy) 
+2. mlst (https://github.com/tseemann/mlst)
+3. in silico PCR (https://github.com/egonozer/in_silico_pcr)
+4. ABRicate (https://github.com/tseemann/abricate)
+5. Shovill (https://github.com/tseemann/shovill)
+6. snp-dists (https://github.com/tseemann/snp-dists)
+7. FastTree (http://www.microbesonline.org/fasttree/)
