@@ -1,4 +1,4 @@
-# cfvCatch: A workflow to identify [and catch] the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains
+# cfvCatch: A workflow to identify the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains
 
 CfvCatch is a snakemake workflow for fast differentiation the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains from its neighbour _Campylobacter fetus_ subsp. _fetus_ (_Cff_) strains.  
 
@@ -28,8 +28,12 @@ A list of these nucleotide variants are provided
 | 1452736                                 | CFF8240_1473 | ABK83285.1 | 1791        | GTP-binding protein LepA                                                      | G         | A         | synonymous                   | T      | T      | 
 
 The pipeline takes into account the phylogentic position of the _C. fetus_ strains and the presence of the ISC_fe1_ to determine the subspecies _Cfv_ i.e., the strain will be characterized as 
-* _Cfv_ : if they 1. harbour the  insertion element ISC_fe1_ and 2. have the nucleotide variants specific for clade 1 (T-T-C-T-A-C-A-C-C-A-G)
-* _Cff_ : if they 1. do not harbour the  insertion element ISC_fe1_ and 2. have the nucleotide variants specific for clade 2-8 (C-C-T-C-G-T-C-T-T-G-A)
+* _Cfv_ : if they 
+    1. harbour the  insertion element ISC_fe1_ and 
+    2. have the nucleotide variants specific for clade 1 (T-T-C-T-A-C-A-C-C-A-G)
+* _Cff_ : if they 
+    1. do not harbour the  insertion element ISC_fe1_ and 
+    2. have the nucleotide variants specific for clade 2-8 (C-C-T-C-G-T-C-T-T-G-A)
 
 # Overview
 ![pic](workflow.png)
