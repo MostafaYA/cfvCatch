@@ -126,7 +126,7 @@ rule iscfe1:
         contig = results_dir + "{sample}/contigs.fa",
     output:
         iscfe1 = results_dir + "{sample}/iscfe1.tab",
-    threads: 16
+    threads: 4
     conda:
         envs_folder + "abricate.yaml"
     params:
@@ -142,7 +142,6 @@ rule iscfe1_summary:
         iscfe1_all = expand( results_dir + "{sample}/iscfe1.tab", sample=DATASET),
     output:
         iscfe1_summary = results_dir + "iscfe1_summary.tab",
-    threads: 16
     conda:
         envs_folder + "abricate.yaml"
     shell:
@@ -157,7 +156,7 @@ rule pcr:
     output:
         pcr = results_dir + "{sample}/pcr.tab",
         pcr_amplicon = results_dir + "{sample}/pcr_amplicon.fasta",
-    threads: 16
+    #threads: 16
     #conda:
     #    envs_folder + "abricate.yaml"
     params:
@@ -185,8 +184,8 @@ rule snippy:
         #snippy_outdir_cp= results_dir + "{sample}/",
     shell:
         """
-        snippy --force  --cpus {threads} --ram {threads} --outdir {params.snippy_outdir} --ref {reference} --R1 {input.r1} --R2 {input.r2} {snippy_options} 2>&1 | sed 's/^/[snippy] /' && \
-        samtools mpileup -ugB -I -l {snp_markers}  -f {params.snippy_outdir}/ref.fa {params.snippy_outdir}/snps.bam | bcftools call -c  | bcftools query -f '%CHROM\\t%POS\\t%REF\\t%ALT\\n' --print-header | tee -a {output.eleven_snps}
+        snippy --force  --cpus {threads} --outdir {params.snippy_outdir} --ref {reference} --R1 {input.r1} --R2 {input.r2} {snippy_options} 2>&1 | sed 's/^/[snippy] /' && \
+        samtools mpileup -ugB -I -l {snp_markers}  -f {params.snippy_outdir}/ref.fa {params.snippy_outdir}/snps.bam | bcftools call -c  | bcftools query -f '%CHROM\\t%POS\\t%REF\\t%ALT\\n' --print-header | tee -a {output.eleven_snps} #--ram {threads}
         """
 rule snippy_ln:
     input:
@@ -216,9 +215,9 @@ rule snippy_assemblies:
         snippy_outdir= results_dir + "{genome}/snippy",
     shell:
         """
-        snippy --force  --cpus {threads} --ram {threads} --outdir {params.snippy_outdir} --ref {reference} --ctgs {input.contig} {snippy_options} 2>&1 | sed 's/^/[snippy] /' && \
+        snippy --force  --cpus {threads} --outdir {params.snippy_outdir} --ref {reference} --ctgs {input.contig} {snippy_options} 2>&1 | sed 's/^/[snippy] /' && \
         samtools mpileup -ugB -I -l {snp_markers}  -f {params.snippy_outdir}/ref.fa {params.snippy_outdir}/snps.bam | bcftools call -c  | bcftools query -f '%CHROM\\t%POS\\t%REF\\t%ALT\\n' --print-header | tee -a {output.eleven_snps}
-        """
+        """ #--ram {threads}
 
 def snippy_folders(wildcards):
     return expand(results_dir + "{sample}", sample=SAMPLES)

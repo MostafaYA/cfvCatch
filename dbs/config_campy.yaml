@@ -2,9 +2,9 @@
 #==========   INPUT data    =======================
 #==================================================
 #directories #Dont forget the backslash at the end of the path
-snakemake_folder: /home/mostafa.abdel/aProjects/gitProjects/cfvcatch/ 
-raw_data_dir: /home/mostafa.abdel/aProjects/gitProjects/cfvcatch/input/ 
-fasta_dir: /home/mostafa.abdel/aProjects/gitProjects/cfvcatch/input/
+snakemake_folder: /home/Diagnostics/cfvcatch/ 
+raw_data_dir: /home/Diagnostics/cfvcatch/input/ 
+fasta_dir: /home/Diagnostics/cfvcatch/input/
 results_dir: results/ 
 
 #==================================================
@@ -13,9 +13,9 @@ results_dir: results/
 #assembly
 trimmer: trimmomatic
 assembler: shovill #choose between [shovill spades megahit sksea]
-assembler_options: --trim
-filter: yes
-#snippy_options: --cleanup #--mincov 5
+assembler_options: --trim trimmomatic --filter true --assembler_option "--ram 8 --cpus 4"
+#filter: yes
+snippy_options: --ram 4 #--mincov 5
 #reference: /data/AGr110/mostafa/campylobacter/campyFetus_all/CP000487/CP000487.1.gbk 
 #Resistance and virulence dbs
 db_abricate: ncbi
