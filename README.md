@@ -6,14 +6,14 @@ cfvCatch is a snakemake workflow for fast differentiation  _Campylobacter fetus_
 ##### This differentiation is done via reporting:
 
 1. variant markers specific for the _Cfv_ phylogenetic group (defined below)
-2. the presence of the IS_Cfe1_ (_Cfv_ marker)
+2. the presence of the IS*Cfe1* (_Cfv_ marker)
 3. MLST types 
 4. results of _in silico_ PCR assays
 
 ## _Cfv_ specific markers
 Theses are specific nucleotide variants which, at a specific position, are identical in all genomes of the _Cfv_ clade and different from all genomes of all other clades, ignoring indels and variants located in the intergenic regions or within repeated sequences.
 
-A list of these nucleotide variants are provided
+A list of these nucleotide variants are provided:
 
 | Position in ref. genome | Target       | Protein id | Gene Length | Product                                                                       | Cfv (100) | Cff (182) | Effect on reference sequence | Cfv AA | Cff AA |
 |-----------------------------------------|--------------|------------|-------------|-------------------------------------------------------------------------------|-----------|-----------|------------------------------|--------|--------|
@@ -34,7 +34,7 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
     1. harbour the  insertion element IS*Cfe1* and 
     2. have the nucleotide variants specific for clade 1 (T-T-C-T-A-C-A-C-C-A-G)
 * _Cff_ : if they 
-    1. do not harbour the  insertion element IS*Cfe1* and 
+    1. do not harbour the insertion element IS*Cfe1* and 
     2. have the nucleotide variants specific for clade 2-8 (C-C-T-C-G-T-C-T-T-G-A)
 
 # Overview
@@ -42,7 +42,7 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
 
 # Install cfvCatch
 
-To install cfvCatch, you need to install [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) instllaed then download the source code.
+To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) instllaed.
 All ohter dependencies are downloaded during run-time.
 
 
