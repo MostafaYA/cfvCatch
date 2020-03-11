@@ -22,7 +22,7 @@ popd > /dev/null #SOURCE
 #make a help MSG and pass arguments
 PROGNAME=`basename $0`
 function usage { echo "USAGE:
-   bash ./cfvCatch -fq fastq_directory
+   bash <path to cfvcatch>/cfvCatch -fq fastq_directory
 REQUIRED:
    -fq, --fastq-directory DIR, a directory where the fastq reads are present
 OPTIONAL:
