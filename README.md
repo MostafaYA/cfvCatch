@@ -58,7 +58,7 @@ All ohter dependencies are downloaded during run-time.
 
 #### Run cfvCatch
 
-Make sure file pattern of raw reads match *ID*_R1_*.fastq or *ID*_1.fastq. Raw reads might be zipped via gzip. Fasta files of assemblies must be unzipped.  
+Make sure file pattern of raw reads match `*ID*_R1_*.fastq` or `*ID*_1.fastq`. Raw reads might be zipped via gzip. Fasta files of assemblies must be unzipped.  
 
 example: `>bash <path to cfvcatch>/cfvCatch -fq <fastq-directory> -fa <fasta-directory --results_dir results --run true`
 
