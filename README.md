@@ -58,15 +58,15 @@ All ohter dependencies are downloaded during run-time.
 
 #### Run cfvCatch
 
-example: `bash ./cfvCatch -fq <path to fastq reads> -fa <path to fastq reads> --results_dir results --run true`
+example: `bash ./cfvCatch -fq <path to fastq reads> -fa <path to fasta reads> --results_dir results --run true`
 
 ```
-bash ~/aProjects/gitProjects/cfvcatch/cfvCatch -h
+bash <path to cfvcatch>/cfvCatch -h
 
 USAGE:
    bash ./cfvCatch -fq fastq_directory
 REQUIRED:
-   -fq, --fastq-directory DIR, a directory where the fastq reads are present
+   -fq, --fastq-directory DIR, a directory where the fastq reads are present (fastq reads can be also gzipped)
 OPTIONAL:
    -fa, --fasta-directory DIR, a directory where the fasta reads are present
    -o, --outdir           DIR, a directory to write input data in correct format for snakemake (default: input/)
