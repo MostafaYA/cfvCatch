@@ -58,13 +58,13 @@ All ohter dependencies are downloaded during run-time.
 
 #### Run cfvCatch
 
-example: `bash ./cfvCatch -fq <path to fastq reads> -fa <path to fasta reads> --results_dir results --run true`
+example: `bash <path to cfvcatch>/cfvCatch -fq <path to fastq reads> -fa <path to fasta reads> --results_dir results --run true`
 
 ```
 bash <path to cfvcatch>/cfvCatch -h
 
 USAGE:
-   bash ./cfvCatch -fq fastq_directory
+   bash <path to cfvcatch>/cfvCatch -fq fastq_directory
 REQUIRED:
    -fq, --fastq-directory DIR, a directory where the fastq reads are present (fastq reads can be also gzipped)
 OPTIONAL:
