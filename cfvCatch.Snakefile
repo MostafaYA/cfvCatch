@@ -311,5 +311,8 @@ rule combine_Results:
         allcsv= results_dir + "Summary.csv",
     conda:
         envs_folder + "rxls.yaml"
+    log:
+        results_dir+"combineR.log"
     script:
         bin_dir +"/summary.R"
+
