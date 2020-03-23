@@ -38,7 +38,7 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
     2. have the nucleotide variants specific for clade 2-8 (C-C-T-C-G-T-C-T-T-G-A)
 
 # Overview
-![pic](workflow.png)
+![pic](workflow.svg)
 
 # Install cfvCatch
 
