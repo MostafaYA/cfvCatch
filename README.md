@@ -29,7 +29,7 @@ A list of these nucleotide variants are provided:
 | 1438083                                 | CFF8240_1456 | ABK82820.1 | 1032        | uroporphyrinogen decarboxylase                                                | A         | G         | synonymous                   | D      | D      |
 | 1452736                                 | CFF8240_1473 | ABK83285.1 | 1791        | GTP-binding protein LepA                                                      | G         | A         | synonymous                   | T      | T      | 
 
-The pipeline takes into account the phylogenetic position of the _C. fetus_ strains and the presence of the ISC*fe1* to determine the subspecies _Cfv_ i.e., the strain will be characterized as 
+The pipeline takes into account the phylogenetic position of the _C. fetus_ strains and the presence of the ISC*fe1* to determine the subspecies _Cfv_ i.e., the strains will be characterized as 
 * _Cfv_ : if they 
     1. harbour the  insertion element IS*Cfe1* and 
     2. have the nucleotide variants specific for clade 1 (T-T-C-T-A-C-A-C-C-A-G)
@@ -40,29 +40,37 @@ The pipeline takes into account the phylogenetic position of the _C. fetus_ stra
 # Overview
 ![pic](workflow.svg)
 
+# Authors
+
+* Mostafa Abdel-Glil (@Mostafa.Abdel-Glil)
+* Jörg Linde (@joerg.linde)
+
+
 # Install cfvCatch
 
 To install cfvCatch, you need to have [Miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html), [Snakemake Version 5.2.2 or newer](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) and [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03) installed.
 All ohter dependencies are downloaded during run-time.
 
 
-Download cfvCatch:
+#### Download cfvCatch:
 
     git clone https://gitlab.com/FLI_Bioinfo/Cfvcatch.git
 
-Run cfvCatch
+#### Run cfvCatch
 
-example: `bash ./cfvCatch -fq <path to fastq reads> -fa <path to fastq reads> --results_dir results --run true`
+Make sure file pattern of raw reads match `*ID*_R1_*.fastq` or `*ID*_1.fastq`. Raw reads might be zipped via gzip. Fasta files of assemblies must be unzipped.  
+
+example: >`bash <path to cfvcatch>/cfvCatch -fq <fastq-directory> -fa <fasta-directory> --results_dir results --run true`
 
 ```
-bash ~/aProjects/gitProjects/cfvcatch/cfvCatch -h
+> bash <path to cfvcatch>/cfvCatch -h
 
 USAGE:
-   bash ./cfvCatch -fq fastq_directory
+   > bash <path to cfvcatch>/cfvCatch -fq fastq_directory
 REQUIRED:
-   -fq, --fastq-directory DIR, a directory where the fastq reads are present
+   -fq, --fastq-directory DIR, a directory where the fastq reads are present (fastq reads can be also gzipped)
 OPTIONAL:
-   -fa, --fasta-directory DIR, a directory where the fasta reads are present
+   -fa, --fasta-directory DIR, a directory where the fasta files are present
    -o, --outdir           DIR, a directory to write input data in correct format for snakemake (default: input/)
    --results_dir          DIR, a directory where the results will be written (default: results/)
                               Path should be relative to the snakemake directory - Donot use the full path
@@ -72,3 +80,15 @@ OPTIONAL:
 
 ```
 
+# References 
+* snippy (https://github.com/tseemann/snippy) 
+* mlst (https://github.com/tseemann/mlst)
+* PubMLST (https://pubmlst.org/)
+* in silico PCR (https://github.com/egonozer/in_silico_pcr)
+* ABRicate (https://github.com/tseemann/abricate)
+* ISfinder (https://isfinder.biotoul.fr/)
+* Shovill (https://github.com/tseemann/shovill)
+* snp-dists (https://github.com/tseemann/snp-dists)
+* FastTree (http://www.microbesonline.org/fasttree/)
+* SAMTools (https://github.com/samtools/samtools)
+* BCFTools (https://samtools.github.io/bcftools/)
