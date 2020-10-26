@@ -10,6 +10,7 @@ cfvCatch is a snakemake workflow for fast differentiation _Campylobacter fetus_ 
 3. MLST types 
 4. results of _in silico_ PCR assays
 
+
 ## _Cfv_ specific markers
 Theses are specific nucleotide variants which, at a specific position, are identical in all genomes of the _Cfv_ clade and different from all genomes of all other clades, ignoring indels and variants located in the intergenic regions or within repeated sequences.
 
@@ -92,3 +93,8 @@ OPTIONAL:
 * FastTree (http://www.microbesonline.org/fasttree/)
 * SAMTools (https://github.com/samtools/samtools)
 * BCFTools (https://samtools.github.io/bcftools/)
+
+# Citation
+Abdel-Glil, Mostafa Y., Helmut Hotzel, Herbert Tomaso and Joerg Linde. 2020. **Phylogenomic analysis of _Campylobacter fetus_ reveals a clonal structure of insertion element IS*Cfe1* positive genomes.** Frontiers in Microbiology | doi: 10.3389/fmicb.2020.585374
+
+**_cfvCatch_** uses a number of software , which should also be cited (see the **References** above)
