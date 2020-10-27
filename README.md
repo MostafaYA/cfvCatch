@@ -97,4 +97,4 @@ OPTIONAL:
 # Citation
 Abdel-Glil, Mostafa Y., Helmut Hotzel, Herbert Tomaso and Joerg Linde. 2020. **Phylogenomic analysis of _Campylobacter fetus_ reveals a clonal structure of insertion element IS*Cfe1* positive genomes.** Frontiers in Microbiology | [doi: 10.3389/fmicb.2020.585374](https://www.frontiersin.org/articles/10.3389/fmicb.2020.585374)
 
-**_cfvCatch_** uses a number of software , which should also be cited (see the **References** above)
+**_cfvCatch_** uses a number of software, which should also be cited (see the **References** above).
