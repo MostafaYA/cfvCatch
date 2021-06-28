@@ -1,4 +1,4 @@
-# cfvCatch: A workflow to identify the _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains
+# cfvCatch: A workflow to identify _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains
 
 cfvCatch is a snakemake workflow for fast differentiation _Campylobacter fetus_ subsp. _venerealis_ (_Cfv_) strains from its neighbour _Campylobacter fetus_ subsp. _fetus_ (_Cff_) strains.  
 
@@ -23,7 +23,7 @@ A list of these nucleotide variants are provided:
 | 399029                                  | CFF8240_0424 | ABK81969.1 | 708         | conserved hypothetical protein                                                | C         | T         | synonymous                   | G      | G      |
 | 535915                                  | CFF8240_0528 | ABK83346.1 | 1131        | integral membrane protein-permease component, involved in lipoprotein release | T         | C         | synonymous                   | S      | S      |
 | 654050                                  | CFF8240_0641 | ABK82108.1 | 507         | Hit family protein                                                            | A         | G         | non-synonymous               | I      | V      |
-| 979346                                  | CFF8240_0977 | ABK82797.1 | 747         | NADP-dependent l-serine/l-allo-threonine dehydrogenase ydfg                   | C         | T         | non-synonymous               | C      | Y      |
+| 979346                                   | CFF8240_0977 | ABK82797.1 | 747         | NADP-dependent l-serine/l-allo-threonine dehydrogenase ydfg                   | C         | T         | non-synonymous               | C      | Y      |
 | 1020607                                 | CFF8240_1016 | ABK82995.1 | 879         | phosphatase, Ppx/GppA family                                                  | A         | C         | non-synonymous               | D      | E      |
 | 1025195                                 | CFF8240_1023 | ABK83085.1 | 615         | translocator protein, LysE family                                             | C         | T         | non-synonymous               | S      | N      |
 | 1359201                                 | CFF8240_1380 | ABK83386.1 | 579         | general glycosylation pathway protein                                         | C         | T         | non-synonymous               | M      | I      |
@@ -95,6 +95,6 @@ OPTIONAL:
 * BCFTools (https://samtools.github.io/bcftools/)
 
 # Citation
-Abdel-Glil, Mostafa Y., Helmut Hotzel, Herbert Tomaso and Joerg Linde. 2020. **Phylogenomic analysis of _Campylobacter fetus_ reveals a clonal structure of insertion element IS*Cfe1* positive genomes.** Frontiers in Microbiology | [doi: 10.3389/fmicb.2020.585374](https://www.frontiersin.org/articles/10.3389/fmicb.2020.585374)
+Abdel-Glil, Mostafa Y., Helmut Hotzel, Herbert Tomaso and Joerg Linde. 2020. **Phylogenomic analysis of _Campylobacter fetus_ reveals a clonal structure of insertion element IS*Cfe1* positive genomes.** Frontiers in Microbiology | [doi: 10.3389/fmicb.2020.585374](https://www.frontiersin.org/articles/10.3389/fmicb.2020.585374 )
 
 **_cfvCatch_** uses a number of software, which should also be cited (see the **References** above).
